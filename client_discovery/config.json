@@ -1,0 +1,112 @@
+{
+  "search": {
+    "keywords": [],
+    "keyword": "",
+    "shopping_url": "https://search.shopping.naver.com/search/all",
+    "review_min": 200,
+    "review_max": 300,
+    "follower_min": 50,
+    "follower_max": 1500,
+    "max_results_per_keyword": 120,
+    "max_visits_per_run": 500
+  },
+  "output": {
+    "csv_file": "targets_{date}.csv",
+    "log_file": "run.log",
+    "screenshots_dir": "screens"
+  },
+  "blocklist": [
+    "쿠팡",
+    "11번가",
+    "G마켓",
+    "옥션",
+    "SSG",
+    "롯데ON",
+    "카카오"
+  ],
+  "browser": {
+    "zoom": 100,
+    "resolution": "1920x1080"
+  },
+  "timing": {
+    "load_wait_min": 1.2,
+    "load_wait_max": 2.5,
+    "scroll_wait_min": 0.6,
+    "scroll_wait_max": 1.2,
+    "click_offset_range": 10
+  },
+  "anchors": {
+    "tab_shoppingmall": "assets/img/tab_shoppingmall.png",
+    "sort_review_desc": "assets/img/sort_review_desc.png",
+    "label_review": "assets/img/label_review.png",
+    "label_interest": "assets/img/label_interest.png",
+    "search_box": ""
+  },
+  "layout": {
+    "card_width": 340,
+    "card_height": 420,
+    "review_anchor_offset_x": 30,
+    "review_anchor_offset_y": 360,
+    "anchor_confidence": 0.75,
+    "dedupe_threshold_px": 40,
+    "list_name_region": {
+      "x": 10,
+      "y": 10,
+      "width": 300,
+      "height": 60
+    },
+    "list_review_region": {
+      "x": 10,
+      "y": 340,
+      "width": 300,
+      "height": 80
+    },
+    "detail_interest_region": {
+      "x_offset": 120,
+      "y_offset": -10,
+      "width": 220,
+      "height": 80
+    },
+    "detail_interest_fallback_region": {
+      "x": 960,
+      "y": 200,
+      "width": 400,
+      "height": 220
+    }
+  },
+  "ui": {
+    "search_box": {
+      "x": 520,
+      "y": 120
+    },
+    "items_per_page_button": {
+      "x": 1810,
+      "y": 215
+    },
+    "items_per_page_option_80": {
+      "x": 1805,
+      "y": 360
+    }
+  },
+  "filters": {
+    "multi_store_keywords": [
+      "가격비교",
+      "여러",
+      "공동"
+    ]
+  },
+  "selenium": {
+    "driver_path": "",
+    "headless": false,
+    "window_size": "1920,1080",
+    "timeout": 30,
+    "implicit_wait": 10,
+    "page_load_timeout": 30
+  },
+  "automation": {
+    "use_selenium": false,
+    "use_pyautogui": true,
+    "screenshot_on_error": true,
+    "max_retries": 3
+  }
+}

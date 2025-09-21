@@ -1,0 +1,8 @@
+﻿지금 당장 고칠 부분 (한글 요약)
+
+1. 새로 추가된 버튼/라벨 스크린샷 파일이 `assets/img/`에 없음.
+   - `tab_shoppingmall.png`, `sort_review_desc.png`, `label_review.png`, `label_interest.png` 네 개를 실제 화면에서 캡처해 넣어야 `validate_image_assets()` 검사를 통과함.
+2. `gui/complete_automation_gui.py`에서 Tesseract 경로를 읽어오는 코드가 들여쓰기가 깨짐.
+   - 해당 블록을 기존 `try:` 안으로 다시 넣지 않으면 `IndentationError` 때문에 GUI가 실행되지 않음.
+
+이 두 가지를 먼저 고치고 다시 돌려보라고 전달하면 됩니다.

@@ -1,0 +1,56 @@
+===== ?섏젙??GUI ?쒖뒪???쒖옉 =====
+媛쒕퀎 紐⑤뱢 ?쒖뼱 踰꾪듉??異붽??섏뿀?듬땲??
+
+?섍꼍蹂???ㅼ젙: jadong-471919
+
+?덈줈??GUI ?ㅽ뻾 以?..
+- 怨좉컼??諛쒓뎬 ??뿉??媛쒕퀎 紐⑤뱢 踰꾪듉 ?뺤씤?섏꽭??
+
+GUI 모듈 import 시도...
+GUI 실행 중...
+C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\vertexai\generative_models\_generative_models.py:433: UserWarning: This feature is deprecated as of June 24, 2025 and will be removed on June 24, 2026. For details, see https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations/genai-vertexai-sdk.
+  warning_logs.show_deprecation_warning()
+[00:28:59] 완전 자동화 통합 시스템이 준비되었습니다.
+[00:28:59] 웹 자동화 + 파일 정리 + AI 콜드메일 생성 통합
+GUI 준비 완료. 창을 확인해주세요.
+[00:29:05] [웹자동화] 시작 - 브라우저 페이지가 열려있는지 확인하세요
+[00:29:05] [웹자동화] 화면 크기: 1920x1080
+[00:29:05] [웹자동화] 페이지 스크롤 다운 실행...
+[00:29:08] [웹자동화] 스크롤 1/3 완료
+[00:29:11] [웹자동화] 스크롤 2/3 완료
+[00:29:14] [웹자동화] 스크롤 3/3 완료
+[00:29:14] [웹자동화] 화면 캡처 수행...
+[00:29:14] [웹자동화] 스크린샷 저장: web_automation_capture_20250916_002914.png
+[00:29:14] [웹자동화] 완료!
+[00:29:22] 완전 자동화 워크플로우 시작
+[00:29:22] 📥 1단계: 웹 자동화 시작 - 데이터 수집
+[00:29:22] 네이버 스마트스토어에서 데이터 수집 시작
+[00:29:22] 제품 1/1 처리 중...
+[00:29:22] [제품 1] 크롤링 시작...
+[00:29:25] [제품 1] 이미지 저장: product_1_capture_20250916_002925.png
+[00:29:27] [제품 1] 데이터 저장: product_1_data_20250916_002925.csv
+[00:29:32] 웹 자동화 완료: 1개 이미지, 1개 리뷰
+[00:29:32] 📁 2단계: 파일 정리 시작
+[00:29:32] 수집된 파일들을 정리하고 있습니다...
+[00:29:32] 🤖 3단계: AI 콜드메일 처리 시작
+2025-09-16 00:29:32.149 | INFO     | llm.two_stage_processor:process_complete_workflow:282 - 2단계 워크플로우 시작
+2025-09-16 00:29:32.149 | INFO     | llm.two_stage_processor:stage1_ocr_extraction:124 - Stage 1 시작: Tesseract OCR 및 데이터 추출
+2025-09-16 00:29:32.150 | INFO     | llm.two_stage_processor:stage1_ocr_extraction:131 - Tesseract로 이미지 처리 중: data\product_images\sample.png
+2025-09-16 00:29:32.401 | INFO     | llm.two_stage_processor:_extract_text_with_tesseract:458 - Tesseract OCR 완료: 88자 추출
+2025-09-16 00:29:32.402 | INFO     | core.safety_monitor:safe_api_call:159 - 🔒 안전 API 호출 시작 (예상 비용: $0.010)
+2025-09-16 00:29:45.779 | INFO     | core.safety_monitor:safe_api_call:164 - ✅ API 호출 성공
+[TOKENS] prompt=651, candidates=51, total=1683
+2025-09-16 00:29:45.780 | INFO     | llm.two_stage_processor:stage1_ocr_extraction:158 - Stage 1 완료: 1개 이미지 처리
+2025-09-16 00:29:45.780 | INFO     | llm.two_stage_processor:stage2_coldmail_generation:174 - Stage 2 시작: 콜드메일 생성
+2025-09-16 00:29:45.783 | INFO     | llm.two_stage_processor:_sample_reviews:80 - 리뷰 데이터 5개 - 모든 데이터 사용
+2025-09-16 00:29:45.784 | INFO     | core.safety_monitor:safe_api_call:159 - 🔒 안전 API 호출 시작 (예상 비용: $0.010)
+2025-09-16 00:29:55.873 | INFO     | core.safety_monitor:safe_api_call:164 - ✅ API 호출 성공
+[TOKENS] prompt=535, candidates=44, total=1560
+2025-09-16 00:29:56.216 | INFO     | compose.email_sender_manager:load_ecommerce_database:239 - 이커머스 데이터베이스 로드 완료: 9개 항목
+2025-09-16 00:29:56.252 | INFO     | compose.email_sender_manager:load_pending_list:253 - 발송대기 리스트 로드: 4개 항목
+2025-09-16 00:29:56.289 | INFO     | compose.email_sender_manager:add_to_pending_list:301 - 발송대기 리스트에 추가: 미확인
+2025-09-16 00:29:56.290 | INFO     | llm.two_stage_processor:_add_to_pending_list:341 - 발송대기 리스트 추가 완료: 미확인 - 미확인
+2025-09-16 00:29:56.290 | INFO     | llm.two_stage_processor:stage2_coldmail_generation:210 - Stage 2 완료: 콜드메일 생성 및 발송대기 리스트 등록
+2025-09-16 00:29:56.290 | INFO     | llm.two_stage_processor:process_complete_workflow:311 - 2단계 워크플로우 완료
+[00:29:56] AI 처리 완료: outputs\automated_coldmail_20250916_002956.txt
+[00:29:56] 🎉 완전 자동화 워크플로우 완료!

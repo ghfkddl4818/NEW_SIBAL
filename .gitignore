@@ -1,0 +1,48 @@
+﻿# API Keys and Credentials
+*.env
+.env*
+*_key.txt
+*api*key*
+credentials.json
+service-account*.json
+*secret*
+
+# Output files (may contain sensitive data)
+outputs/
+*.log
+
+# Cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large files
+*.zip
+*.tar.gz
+
+# Build and distribution files
+build/
+dist/
+CompleteAutomation_Portable/
+*.spec
+
+# Claude Code settings (may contain sensitive info)
+.claude/
+
+# Playwright session state
+playwright/
+
+# Sensitive local data
+all_in_one/계정.txt

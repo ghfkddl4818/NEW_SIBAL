@@ -1,0 +1,68 @@
+budget:
+  max_cost_per_job_usd: 0.05
+file_organizer:
+  button_confidence: 0.8
+  coldmail_folder: E:/VSC/ALL_IN_ONE_VER2/data/coldmail
+  context_confidence: 0.7
+  database_file: E:/VSC/ALL_IN_ONE_VER2/data/storage/ecommerce_database.xlsx
+  download_folder: E:/VSC/ALL_IN_ONE_VER2/downloads
+  max_scrolls: 16
+  retry_attempts: 3
+  scroll_amount: 800
+  total_products: 30
+  wait_time: 2
+  fireshot_capture_timeout_sec: 20
+  fireshot_capture_poll_interval_sec: 0.5
+  work_folder: E:/VSC/ALL_IN_ONE_VER2/data/work
+gui:
+  assets:
+    analysis_start: assets/img/analysis_start.png
+    detail_button: assets/img/detail_button.png
+    excel_download: assets/img/excel_download.png
+    fireshot_save: assets/img/fireshot_save.png
+    popup_context: assets/img/popup_context.png
+    result_context: assets/img/result_context.png
+    review_button: assets/img/review_button.png
+    review_context: assets/img/review_context.png
+  default_confidence: 0.8
+  default_max_chars: 600
+  default_min_chars: 350
+  default_tone: consultant
+  default_total_products: 30
+  window_size: 1800x1200
+  window_title: 亦낃낫?????곷묽?믩챷???꾩뮆諭띰쭖遺우뵬 ?癒?짗????뽯뮞??
+llm:
+  max_output_tokens: 1024
+  model: gemini-2.5-pro
+  provider: vertex
+  temperature: 0.3
+ocr:
+  languages:
+  - kor
+  - eng
+  oem: 3
+  psm: 6
+  tesseract_cmd: E:/tesseract/tesseract.exe
+paths:
+  input_images_dir: ./data/product_images
+  input_reviews_dir: ./data/reviews
+  output_root_dir: ./outputs
+  prompts_dir: ./llm/prompts
+policy:
+  ad_prefix: true
+  email_max_chars: 600
+  email_min_chars: 350
+  suppress_risky_claims: true
+  tone_default: consultant
+runtime:
+  backoff:
+  - 2
+  - 4
+  - 8
+  concurrency: 2
+  rate_limit:
+    rpm_soft: 60
+    tpm_soft: 120000
+vertex:
+  location: global
+  project_id: ${VERTEX_PROJECT_ID}

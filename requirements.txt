@@ -1,0 +1,44 @@
+# Core dependencies
+typer
+pydantic
+loguru
+python-dotenv
+pyyaml
+
+# Web automation (pyautogui dependencies)
+pyautogui
+pyperclip
+keyboard
+pygetwindow
+
+# OCR and Image processing
+pytesseract
+pillow
+opencv-python
+numpy
+
+# Data processing
+pandas
+openpyxl
+
+# AI/LLM
+tiktoken
+httpx
+vertexai
+google-cloud-aiplatform
+
+# Web scraping & automation
+selenium
+beautifulsoup4
+requests
+
+# Development utilities
+pathlib3x
+
+# System monitoring
+psutil
+# Testing
+pytest
+pytest-asyncio
+pytest-playwright
+playwright

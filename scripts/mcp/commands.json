@@ -1,0 +1,24 @@
+﻿{
+  "commands": [
+    {
+      "name": "run_unit_tests",
+      "description": "Execute pytest excluding E2E/Playwright suites.",
+      "command": ["python", "scripts/run_tests.py", "--scope", "unit"]
+    },
+    {
+      "name": "run_e2e_tests",
+      "description": "Run Playwright-backed tests (requires RUN_PLAYWRIGHT=1).",
+      "command": ["python", "scripts/run_tests.py", "--scope", "e2e"],
+      "environment": {
+        "RUN_PLAYWRIGHT": "1"
+      },
+      "manualApproval": true
+    },
+    {
+      "name": "run_full_test_suite",
+      "description": "Run the complete pytest suite.",
+      "command": ["python", "scripts/run_tests.py", "--scope", "all"],
+      "manualApproval": false
+    }
+  ]
+}

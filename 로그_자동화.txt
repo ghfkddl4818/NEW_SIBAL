@@ -1,0 +1,150 @@
+gui 로그
+
+[02:55:55] ✅ 설정 파일에서 GUI 기본값 로드 완료
+[02:55:55] ✅ 모든 이미지 자산 확인됨 (13개)
+[02:55:55] 🔒 종합 안전 모니터링 시스템 활성화
+[02:55:55] 📊 안전 모니터링 백그라운드 스레드 시작
+[02:55:55] 🔍 API 및 OCR 환경 검증 시작...
+[02:55:55] ✅ VERTEX_PROJECT_ID 설정 확인: your-project-id-here
+[02:55:55] ✅ Tesseract OCR 경로 확인: E:/tesseract/tesseract.exe
+[02:55:58] ✅ OCR 모듈 기본 테스트 통과
+[02:55:58] ✅ AI 설정 로드 성공
+[02:55:58] ✅ AI 클라이언트 모듈 로드 성공
+[02:55:58] 🔍 API 및 OCR 환경 검증 완료
+[02:55:58] 궁극의 통합 자동화 시스템 준비 완료!
+[02:55:58] '완전 자동화 시작' 버튼을 클릭하여 시작하세요!
+[02:58:26] 🚀 완전 자동화 프로세스 시작
+[02:58:26] 📊 목표: 1개 제품 → 1개 콜드메일
+[02:58:27] ❌ 치명적 오류 발생: 'Progressbar' object has no attribute 'set'
+[02:59:31] 🕐 5초 후 웹 자동화 시작... 브라우저를 준비하세요!
+[02:59:32] 🕐 4초 후 웹 자동화 시작... 브라우저를 준비하세요!
+[02:59:33] 🕐 3초 후 웹 자동화 시작... 브라우저를 준비하세요!
+[02:59:34] 🕐 2초 후 웹 자동화 시작... 브라우저를 준비하세요!
+[02:59:35] 🕐 1초 후 웹 자동화 시작... 브라우저를 준비하세요!
+[02:59:36] 🚀 웹 자동화 시작!
+[02:59:36] 🌐 웹 브라우저 자동화 시작
+[02:59:37] 🔄 제품 1/1 처리 중...
+[02:59:40] ✅ URL 수집 완료: https://search.shopping.naver.com/search/all?adQue...
+[02:59:41] 🔄 스크롤 1/16
+[02:59:43] 🔄 스크롤 2/16
+[02:59:44] 🔄 스크롤 3/16
+[02:59:46] 🔄 스크롤 4/16
+[02:59:48] 🔄 스크롤 5/16
+[02:59:49] 🔄 스크롤 6/16
+[02:59:51] ⏹️ 웹 자동화 중단됨
+[02:59:51] 🔄 스크롤 7/16
+[02:59:51] ❌ 제품 1: 상세정보 버튼 찾기 실패
+[02:59:51] ❌ 제품 1 처리 실패
+[02:59:51] 🌐 웹 자동화 완료: 성공 0개, 실패 1개
+[02:59:51] ⚠️ 웹 자동화 중단됨
+[03:00:20] 🕐 5초 후 웹 자동화 시작... 브라우저를 준비하세요!
+[03:00:21] 🕐 4초 후 웹 자동화 시작... 브라우저를 준비하세요!
+[03:00:22] 🕐 3초 후 웹 자동화 시작... 브라우저를 준비하세요!
+[03:00:23] 🕐 2초 후 웹 자동화 시작... 브라우저를 준비하세요!
+[03:00:24] 🕐 1초 후 웹 자동화 시작... 브라우저를 준비하세요!
+[03:00:25] 🚀 웹 자동화 시작!
+[03:00:25] 🌐 웹 브라우저 자동화 시작
+[03:00:25] 🔄 제품 1/1 처리 중...
+[03:00:28] ✅ URL 수집 완료: https://smartstore.naver.com/dbbamall/products/511...
+[03:00:29] 🔄 스크롤 1/16
+[03:00:31] 🔄 스크롤 2/16
+[03:00:33] 🔄 스크롤 3/16
+[03:00:34] 🔄 스크롤 4/16
+[03:00:36] 🔄 스크롤 5/16
+[03:00:38] 🔄 스크롤 6/16
+[03:00:39] 🔄 스크롤 7/16
+[03:00:41] 🔄 스크롤 8/16
+[03:00:42] ✅ 상세정보 펼쳐보기 완료 (스크롤 9회)
+[03:00:48] ❌ 제품 1 캡처 오류: 
+[03:00:48] ❌ 제품 1: 페이지 캡처 실패
+[03:00:48] ❌ 제품 1 처리 실패
+[03:00:48] 🌐 웹 자동화 완료: 성공 0개, 실패 1개
+[03:00:48] ⚠️ 웹 자동화 중단됨
+
+cmd 로그
+
+E:\VSC\ALL_IN_ONE_VER2>癤?echo off
+'癤?echo'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+E:\VSC\ALL_IN_ONE_VER2>ces
+'ces'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+E:\VSC\ALL_IN_ONE_VER2>e/output directories exist
+'e'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+E:\VSC\ALL_IN_ONE_VER2>a\storage" mkdir "E:\VSC\ALL_IN_ONE_VER2\data\storage"
+파일 이름, 디렉터리 이름 또는 볼륨 레이블 구문이 잘못되었습니다.
+
+E:\VSC\ALL_IN_ONE_VER2>a\work" mkdir "E:\VSC\ALL_IN_ONE_VER2\data\work"
+파일 이름, 디렉터리 이름 또는 볼륨 레이블 구문이 잘못되었습니다.
+
+E:\VSC\ALL_IN_ONE_VER2>nloads" mkdir "E:\VSC\ALL_IN_ONE_VER2\downloads"
+파일 이름, 디렉터리 이름 또는 볼륨 레이블 구문이 잘못되었습니다.
+
+E:\VSC\ALL_IN_ONE_VER2>he app (match config.yaml)
+'he'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+E:\VSC\ALL_IN_ONE_VER2>\data\storage\ecommerce_database.xlsx"
+지정된 경로를 찾을 수 없습니다.
+
+E:\VSC\ALL_IN_ONE_VER2>ta\work"
+지정된 경로를 찾을 수 없습니다.
+
+E:\VSC\ALL_IN_ONE_VER2>\downloads"
+'\downloads"'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+E:\VSC\ALL_IN_ONE_VER2>ESSERACT_CMD set "TESSERACT_CMD=E:\tesseract\tesseract.exe"
+'ESSERACT_CMD'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+E:\VSC\ALL_IN_ONE_VER2>NFO] Tesseract 寃쎈줈:
+'NFO]'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+E:\VSC\ALL_IN_ONE_VER2>寃쎈줈()瑜?李얠? 紐삵뻽?듬땲?? OCR 湲곕뒫 ?ъ슜 ??寃쎈줈瑜??뺤씤?섏꽭??
+'寃쎈줈'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+E:\VSC\ALL_IN_ONE_VER2>rem Vertex project (fallback value kept for now)
+
+E:\VSC\ALL_IN_ONE_VER2>if not defined VERTEX_PROJECT_ID set "VERTEX_PROJECT_ID=jadong-471919"
+
+E:\VSC\ALL_IN_ONE_VER2>echo [INFO] VERTEX_PROJECT_ID = your-project-id-here
+[INFO] VERTEX_PROJECT_ID = your-project-id-here
+
+E:\VSC\ALL_IN_ONE_VER2>echo Starting integrated automation system...
+Starting integrated automation system...
+
+E:\VSC\ALL_IN_ONE_VER2>echo - Web Automation
+- Web Automation
+
+E:\VSC\ALL_IN_ONE_VER2>echo - AI Cold Email Generation
+- AI Cold Email Generation
+
+E:\VSC\ALL_IN_ONE_VER2>echo - Client Discovery Crawling
+- Client Discovery Crawling
+
+E:\VSC\ALL_IN_ONE_VER2>echo - File Organization
+- File Organization
+
+E:\VSC\ALL_IN_ONE_VER2>echo.
+
+
+E:\VSC\ALL_IN_ONE_VER2>echo Starting GUI...
+Starting GUI...
+
+E:\VSC\ALL_IN_ONE_VER2>echo.
+
+
+E:\VSC\ALL_IN_ONE_VER2>python "ultimate_automation_system.py"
+궁극의 통합 자동화 시스템 시작...
+궁극의 통합 자동화 시스템 시작...
+GUI 위젯 생성 중...
+[02:55:55] 고객사 발굴 시스템 준비 완료
+궁극의 통합 시스템 초기화 완료!
+GUI 창이 표시되어야 합니다. 작업표시줄을 확인하세요.
